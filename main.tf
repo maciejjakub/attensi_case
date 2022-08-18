@@ -79,6 +79,4 @@ resource "aws_iam_role" "app_runner_ecr_role" {
       }
     ]
   })
-
-
 }
