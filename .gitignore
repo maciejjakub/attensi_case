@@ -1,0 +1,10 @@
+.terraform
+
+terraform.tfstate
+terraform.tfstate.backup
+
+.terraform.lock.hcl
+
+jmeter.log
+
+/2022-08*

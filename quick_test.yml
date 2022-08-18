@@ -1,0 +1,14 @@
+execution:
+- concurrency: 200
+  ramp-up: 15s
+  hold-for: 7m
+  scenario: quick-test
+
+scenarios:
+  quick-test:
+    default-address: https://pku2z6haqu.eu-west-1.awsapprunner.com
+    requests:
+    - url: '/calc'
+      method: POST
+      body: '2*2'
+
